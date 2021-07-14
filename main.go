@@ -12,11 +12,11 @@ func main() {
 
 	if purchase >= minAmount{
 		cashback = purchase * percentageCashback / fullPercent
-		fmt.Println("ffffff")
+		fmt.Println("Prediction cashback is", cashback)
 	}
 
 	if cashback > limitCashback{
 		cashback = limitCashback
 	}
-	fmt.Println("gggg")
+	fmt.Println("cashback is",cashback)
 }
